@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Evoke</title>
+  
+  <!-- Fonts -->
+  <link rel="stylesheet" href="./assets/fonts/roboto.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="ui-menu-g" onclick="ui_menu_toggle()">
+      <div class="ui-bar"></div>
+      <div class="ui-bar"></div>
+      <div class="ui-bar"></div>
+    </div>
+  </div>
+  
+  <div class="cssmenu" id="jsmenu">
+    <div class="ui-menu-asset">
+      Account
+    </div>
+    <div class="ui-menu-asset">
+      My IDs
+    </div>
+    <div class="ui-menu-asset">
+      Settings
+    </div>
+    <div class="ui-menu-asset">
+      Help
+    </div>
+    <div class="ui-menu-asset">
+      Featured
+    </div>
+  </div>
+  
+  <div class="content">
+    <input type="search" id="id-input-search" class="main-search" placeholder="Search Evoke or enter ID" autocapitalize="off"> <button id="search" class="search-btn">Search</button></input>
+  </div>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
